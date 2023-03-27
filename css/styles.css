@@ -15,8 +15,7 @@
     padding: 10px;
     width: 700px;
     height: 80px;
-    color: rgba(95, 95, 126, 0.842);
-    background-color: rgba(255, 255, 255, 0.932);
+    color: rgba(95, 95, 126, 0.8);
 }
 
 .flex-container_2 {
@@ -27,29 +26,28 @@
     padding: 10px;
     width: 1200px;
     height: 80px;
-    color: rgba(95, 95, 126, 0.842);
-    background-color: rgba(255, 255, 255, 0.932);
+    color: rgba(95, 95, 126, 0.8);
 }
 
 .flex-container_3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.flex-container_3>div {
     margin: 5px;
-    padding: 5px;
-    width: 150px;
+    padding-top: 10px;
+    width: 160px;
     height: 40px;
     color: rgba(95, 95, 126, 0.8);
-    background-color: rgba(255, 255, 255, 0.9);
-
+    text-align: center;
 }
 
 .flex-container_4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5px;
-    padding: 5px;
 }
 
 .img {
@@ -57,7 +55,8 @@
 }
 
 .img_1 {
-    width: 15px;
+    width: 13px;
+
 }
 
 .h_1 {
@@ -68,7 +67,7 @@
 a {
     text-decoration: none;
     color: rgba(117, 110, 110, 0.8);
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .header {
