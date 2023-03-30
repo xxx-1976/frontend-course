@@ -9,59 +9,53 @@
 
 .flex-container_1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin: 10px;
     padding: 10px;
-    width: 700px;
     height: 80px;
     color: rgba(95, 95, 126, 0.8);
 }
 
 .flex-container_2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 10px;
     padding: 10px;
-    width: 1200px;
     height: 80px;
     color: rgba(95, 95, 126, 0.8);
+}
+
+.flex-container_2>div {
+    margin: 5px;
+    padding: 10px 20px;
+    height: 40px;
+    color: rgba(95, 95, 126, 0.8);
+    text-align: center;
 }
 
 .flex-container_3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 10px;
+    padding: 10px;
+    height: 80px;
 }
 
 .flex-container_3>div {
     margin: 5px;
-    padding-top: 10px;
-    width: 160px;
+    padding: 10px 20px;
     height: 40px;
-    color: rgba(95, 95, 126, 0.8);
-    text-align: center;
-}
-
-.flex-container_4 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.img {
-    margin-left: 100px;
 }
 
 .img_1 {
     width: 13px;
-
 }
 
-.h_1 {
+.h_2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-right: 100px;
 }
 
 a {
@@ -79,7 +73,7 @@ a {
     margin: 15px auto;
     padding: 25px 25px;
     color: rgba(7, 7, 112, 0.7);
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Courier New', Courier, monospace;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
