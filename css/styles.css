@@ -2,117 +2,150 @@
     box-sizing: border-box;
 }
 
-.flex-container {
+.flex {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
-.flex-container_1 {
+.flex_1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    padding: 10px;
-    height: 80px;
-    color: rgba(95, 95, 126, 0.8);
+    margin-top: 30px;
+    height: 260px;
+    border: 1px solid rgba(32, 5, 105, 0.377);
+    border-radius: 50px;
+    background-image: url('../img/1.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.flex-container_2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 10px;
-    padding: 10px;
-    height: 80px;
-    color: rgba(95, 95, 126, 0.8);
-}
-
-.flex-container_2>div {
-    margin: 5px;
-    padding: 10px 20px;
-    height: 40px;
-    color: rgba(95, 95, 126, 0.8);
-    text-align: center;
-}
-
-.flex-container_3 {
+.flex_2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 10px;
-    padding: 10px;
-    height: 80px;
+    margin-top: 30px;
+    border: 1px solid rgba(0, 0, 255, 0.116);
+    border-radius: 30px;
 }
 
-.flex-container_3>div {
-    margin: 5px;
-    padding: 10px 20px;
-    height: 40px;
+.flex_2>div {
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(39, 8, 88, 0.9);
+}
+
+.green:hover {
+    color: rgba(13, 156, 13, 0.7);
+}
+
+.gray:hover {
+    color: rgba(128, 128, 128, 0.6);
+}
+
+.red:hover {
+    color: red;
+}
+
+.black:hover {
+    color: black;
+}
+
+.flex_3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 40px;
+    border: 1px solid rgba(11, 12, 87, 0.1);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.flex_3>div {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgba(254, 254, 255, 0.1);
+    border-radius: 15px;
+}
+
+.flex_3_2 {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(7, 107, 52, 0.7);
+    background-color: rgba(219, 223, 226, 0.2);
+}
+
+.flex_3>div:nth-child(2n+1) {
+    background-image: url('../img/x.jpg');
+}
+
+.flex_3_3 {
+    display: flex;
+    flex-direction: column;
 }
 
 .img_1 {
-    width: 13px;
+    height: 600px;
+    width: 400px;
 }
 
-.h_2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.img_2 {
+    width: 250px;
+    margin: 5px;
+    padding: 5px;
 }
 
-a {
-    text-decoration: none;
-    color: rgba(117, 110, 110, 0.8);
-    font-size: 19px;
+.img_2:hover {
+    width: 400px;
 }
 
-.header {
-    text-align: center;
+.flex_4 {
+    display: flex;
+    align-items: stretch;
+    margin-top: 20px;
+    border: 1px solid rgba(11, 12, 87, 0.1);
+    border-radius: 15px;
+    background-color: rgba(255, 253, 253, 0.1);
 }
 
-.heading {
-    width: 500px;
-    margin: 15px auto;
-    padding: 25px 25px;
-    color: rgba(7, 7, 112, 0.7);
-    font-size: 45px;
-    font-family: 'Courier New', Courier, monospace;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+.flex_4>div {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgba(254, 254, 255, 0.1);
+    border-radius: 15px;
 }
 
-.image {
-    margin: 20px 100px;
-    padding: 30px 30px 30px 30px;
-    width: 350px;
-    height: 250px;
-    border: 1px solid rgba(146, 96, 96, 0.1);
+.flex_4>div:nth-child(2n+1) {
+    background-image: url('../img/x.jpg');
 }
 
-.description {
-    width: 1000px;
-    margin: 20px auto;
-    padding: 15px 25px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+.flex_4_1 {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.paragraph {
+.flex_4_2 {
+    font-size: 17px;
+    font-weight: bold;
     text-align: justify;
-    font-size: 18px;
-    color: rgba(114, 129, 114, 0.9);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(7, 1, 17, 0.507);
+    background-color: rgba(219, 223, 226, 0.2);
 }
 
-.heading:hover {
-    background-color: rgba(190, 177, 177, 0.07);
-    color: rgba(29, 104, 42, 0.8);
-    border: 1px solid rgba(42, 7, 243, 0.2);
+.img_4_3 {
+    height: 650px;
+    width: 400px;
 }
 
-.image:hover {
-    border: 1px solid red;
+.img_4_1 {
+    width: 250px;
+    margin: 5px;
+    padding: 5px;
 }
 
-.paragraph:hover {
-    color: green;
-}
-
-.description:hover {
-    border: 1px solid rgba(114, 13, 230, 0.5);
+.img_4_1:hover {
+    width: 400px;
 }
