@@ -19,7 +19,12 @@
 
 .flex-container_2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.flex-container_2_1 {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     margin: 10px;
     padding: 10px;
@@ -27,7 +32,7 @@
     color: rgba(95, 95, 126, 0.8);
 }
 
-.flex-container_2>div {
+.flex-container_2_1 > div {
     margin: 5px;
     padding: 10px 20px;
     height: 40px;
@@ -35,16 +40,16 @@
     text-align: center;
 }
 
-.flex-container_3 {
+.flex-container_2_2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 10px;
     padding: 10px;
     height: 80px;
 }
 
-.flex-container_3>div {
+.flex-container_2_2 > div {
     margin: 5px;
     padding: 10px 20px;
     height: 40px;
