@@ -6,110 +6,33 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        table {
-            margin-top: 20px;
-            padding: 20px;
-            border: 1px solid rgba(71, 71, 198, 0.6);
-            border-radius: 15px;
-            width: 100%;
-        }
-
-        th {
-            font-size: 17px;
-            padding: 10px;
-            color: #3030af;
-        }
-
-        td {
-            border: 1px solid #9999d1;
-            text-align: center;
-        }
-
-        .service:nth-child(odd) {
-            background-color: rgba(206, 201, 201, 0.2);
-        }
-
-        .location {
-            height: 300px;
-        }
-
-        .caption {
-            margin-bottom: 20px;
-            font-size: 20px;
-            color: #4747c6;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-<table>
-    <caption class="caption">Услуги компании по городам</caption>
-    <tr>
-        <th>Казань</th>
-        <th>Ульяновск</th>
-        <th>Томск</th>
-        <th>Ереван</th>
-        <th>Минск</th>
-        <th>Владивосток</th>
-    </tr>
-    <tr class="service">
-        <td>ремонт</td>
-        <td>ремонт</td>
-        <td>ремонт</td>
-        <td>ремонт</td>
-        <td>ремонт</td>
-        <td>ремонт</td>
-    </tr>
-    <tr class="service">
-        <td>пекарня</td>
-        <td>пекарня</td>
-        <td>пекарня</td>
-        <td>пекарня</td>
-        <td>пекарня</td>
-        <td>пекарня</td>
-    </tr>
-    <tr class="service">
-        <td>прачечная</td>
-        <td>прачечная</td>
-        <td>прачечная</td>
-        <td>прачечная</td>
-        <td>прачечная</td>
-        <td>прачечная</td>
-    </tr>
-    <tr class="service">
-        <td>бытовая техника</td>
-        <td>бытовая техника</td>
-        <td>бытовая техника</td>
-        <td>бытовая техника</td>
-        <td>бытовая техника</td>
-        <td>бытовая техника</td>
-    </tr>
-    <tr class="location">
-        <td>
-            <iframe src="https://yandex.ru/map-widget/v1/?feedback=map%2Fedit&feedback-context=map.controls&from=mapframe&ll=49.099982%2C55.767306&source=mapframe&utm_source=mapframe&z=10.78"
-                    width="250" height="250"></iframe>
-        </td>
-        <td>
-            <iframe src="https://yandex.ru/map-widget/v1/?feedback=map%2Fedit&feedback-context=map.controls&from=mapframe&ll=48.381700%2C54.295515&rtext=&rtt=auto&source=mapframe&utm_source=mapframe&z=11.6"
-                    width="250" height="250"></iframe>
-        </td>
-        <td>
-            <iframe src="https://yandex.ru/map-widget/v1/?feedback=map%2Fedit&feedback-context=map.controls&from=mapframe&ll=85.020855%2C56.559782&source=mapframe&utm_source=mapframe&z=9.98"
-                    width="250" height="250"></iframe>
-        </td>
-        <td>
-            <iframe src="https://yandex.ru/map-widget/v1/?feedback=map%2Fedit&feedback-context=map.controls&from=mapframe&ll=44.506214%2C40.178877&source=mapframe&utm_source=mapframe&z=12.12"
-                    width="250" height="250"></iframe>
-        </td>
-        <td>
-            <iframe src="https://yandex.ru/map-widget/v1/?feedback=map%2Fedit&feedback-context=map.controls&from=mapframe&ll=27.601907%2C53.906972&source=mapframe&utm_source=mapframe&z=11.29"
-                    width="250" height="250"></iframe>
-        </td>
-        <td>
-            <iframe src="https://yandex.ru/map-widget/v1/?feedback=map%2Fedit&feedback-context=map.controls&from=mapframe&ll=131.862691%2C43.097114&source=mapframe&utm_source=mapframe&z=11.65"
-                    width="250" height="250"></iframe>
-        </td>
-    </tr>
-</table>
+<div class="columns">
+    Таблица Сивцева представляет собой стандартный набор печатных знаков для определения остроты зрения человека.
+    Таблица Сивцева состоит из комбинации семи разных букв разного размера, но равных по своей ширине и высоте. В
+    соответствии с условно принятой нормой, глаз со 100%-ным зрением (V=1.0) способен различать две удаленные точки с
+    угловым разрешением в 1 минуту (или 1/60 градуса).
+    В предлагаемой таблице Сивцева содержитя набор печатных знаков для определения остроты зрения в интервале 0.1 - 5.0
+    с расстояния 5 м, причем первые 10 рядов (с V = 0.1-1.0) отличаются шагом в 0.1, последующие два ряда (V=1.5-2.0)- в
+    0.5, и три дополнительных ряда (V=3.0-5.0)- в 1.0.
+    Таблица также содержит две дополнительные колонки: слева - "D=..." (расстояние в метрах, с которого данный знак
+    видит человек со 100%-ным зрением), справа - "V=..."(острота зрения, если данный ряд знаков читается с 5 м).
+    Значения V, приведенные в правой колонке таблицы, соответствую остроте зрения, исследуемой с расстояния 5 м.
+    При определении остроты зрения таблица должна быть освещена одной лампой накаливания или двумя люминесцентными
+    лампами так, чтобы освещенность была равна 700 лк. Свет от ламп(ы) должен быть направлен только на таблицу и не бить
+    в лицо человеку.
+</div>
+<div class="page_height">
+    <div>Ш Б
+        <div>М Н К
+            <div>Ы М Б Ш
+                <div>Б Ы Н К М И
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
