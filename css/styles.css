@@ -1,36 +1,155 @@
-html {
-    font-size: 30px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.columns {
-    margin: 20px;
-    border: 1px solid rgba(11, 20, 143, 0.5);
-    border-radius: 20px;
+.head {
+    display: flex;
+    justify-content: center;
 }
 
-p {
-    margin-left: 22px;
-    width: 48%;
-    display: inline-block;
-    text-align: justify;
-    font-size: 17px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #080884;
+.logo {
+    margin-right: 44.5px;
+    padding: 17.35px 0 17.35px;
 }
 
-.page_height {
-    margin: 20px;
-    padding: 20px;
-    height: 92vh;
-    text-align: center;
-    font-size: 13rem;
-    border: 1px solid red;
-    border-radius: 40px;
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
 }
 
-div {
-    font-size: 0.7em;
+.services {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    width: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
 }
 
+.products {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+    width: 85px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
 
+.about_us {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    width: 90px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
 
+.portfolio {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    width: 90px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    width: 105px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    width: 75px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.measuring {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 14px;
+    width: 169px;
+    height: 40.82px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+    background: #ef7f04;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.calculation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 172px;
+    height: 40.82px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+    background: #3b3a63;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.measuring_text {
+    padding-right: 10px;
+}
+
+.calculation_text {
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.border:hover {
+    border-top: 3px solid #ef7f04;
+    color: #ef7f04;
+}
