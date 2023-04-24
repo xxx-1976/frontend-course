@@ -9,12 +9,17 @@ body {
 
 .head {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .logo {
     margin-right: 45px;
     padding: 17px 0 17px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .navigation {
@@ -23,7 +28,7 @@ body {
     margin-right: 25px;
 }
 
-.services, .products, .about_us, .portfolio, .question, .contacts {
+.services {
     display: flex;
     align-items: center;
     margin-right: 30px;
@@ -86,6 +91,7 @@ a {
 .heading {
     margin-top: 68px;
     margin-bottom: 48px;
+    text-align: center;
 }
 
 .heading, .header {
@@ -122,17 +128,27 @@ a {
 
 .banner {
     display: flex;
-    margin: 5px;
+    flex-wrap: wrap;
 }
 
 .banner_content {
     display: flex;
     flex-direction: column;
+    margin: 0 10px 10px 0;
     background-repeat: no-repeat;
     background-position: center;
-    width: 585px;
+    width: 50%;
     height: 270px;
     border-radius: 5px;
+}
+
+.banner_content:nth-of-type(2n) {
+    margin-right: 0;
+    width: calc(50% - 10px);
+}
+
+.banner_content:nth-of-type(2n + 1) {
+    width: calc(50% - 5px);
 }
 
 .general_properties {
@@ -166,7 +182,6 @@ a {
 
 .top-left {
     background-image: url('../img/2.png');
-    margin-right: 10px;
 }
 
 .top-right {
@@ -175,18 +190,12 @@ a {
 
 .bottom-left {
     background-image: url('../img/4.png');
-    margin-right: 10px;
 }
 
 .bottom-right {
     background-image: url('../img/5.png');
 }
 
-
-
-
-
-
-
-
-
+.text-s {
+    width: 240px;
+}
