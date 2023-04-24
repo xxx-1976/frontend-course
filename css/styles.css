@@ -3,91 +3,30 @@
     padding: 0;
 }
 
+body {
+    background-color: rgba(206, 201, 201, 0.2);
+}
+
 .head {
     display: flex;
     justify-content: center;
 }
 
 .logo {
-    margin-right: 44.5px;
-    padding: 17.35px 0 17.35px;
+    margin-right: 45px;
+    padding: 17px 0 17px;
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
-    margin-right: 50px;
-}
-
-.services {
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
-    width: 50px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: black;
-}
-
-.products {
-    display: flex;
-    align-items: center;
-    margin-right: 35px;
-    width: 85px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: black;
-}
-
-.about_us {
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
-    width: 90px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: black;
-}
-
-.portfolio {
-    display: flex;
-    align-items: center;
     margin-right: 25px;
-    width: 90px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: black;
 }
 
-.question {
+.services, .products, .about_us, .portfolio, .question, .contacts {
     display: flex;
     align-items: center;
     margin-right: 30px;
-    width: 105px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: black;
-}
-
-.contacts {
-    display: flex;
-    align-items: center;
-    width: 75px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
@@ -102,39 +41,29 @@
     align-items: center;
 }
 
-.measuring {
+.measuring, .calculation {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-right: 14px;
-    width: 169px;
-    height: 40.82px;
+    width: 170px;
+    height: 40px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
     line-height: 15px;
     color: white;
-    background: #ef7f04;
     border-radius: 3px;
     border-style: none;
 }
 
+.measuring {
+    margin-right: 14px;
+    background: #ef7f04;
+}
+
 .calculation {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 172px;
-    height: 40.82px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 15px;
-    color: white;
     background: #3b3a63;
-    border-radius: 3px;
-    border-style: none;
 }
 
 .measuring_text {
@@ -153,3 +82,111 @@ a {
     border-top: 3px solid #ef7f04;
     color: #ef7f04;
 }
+
+.heading {
+    margin-top: 68px;
+    margin-bottom: 48px;
+}
+
+.heading, .header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    color: #2f2f51;
+}
+
+.text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2f2f51;
+}
+
+.indent_text {
+    margin-left: 50px;
+}
+
+.imagery {
+    margin-right: 25px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    margin: 5px;
+}
+
+.banner_content {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 585px;
+    height: 270px;
+    border-radius: 5px;
+}
+
+.general_properties {
+    display: flex;
+    align-items: center;
+}
+
+.left_part {
+    margin-top: 55px;
+    margin-left: 50px;
+    margin-bottom: 31px;
+}
+
+.right_part {
+    margin-top: 48px;
+    margin-left: 50px;
+    margin-bottom: 19px;
+}
+
+.left_part_bottom {
+    margin-top: 48px;
+    margin-left: 50px;
+    margin-bottom: 32px;
+}
+
+.right_part_bottom {
+    margin-top: 46px;
+    margin-left: 50px;
+    margin-bottom: 29px;
+}
+
+.top-left {
+    background-image: url('../img/2.png');
+    margin-right: 10px;
+}
+
+.top-right {
+    background-image: url('../img/3.png');
+}
+
+.bottom-left {
+    background-image: url('../img/4.png');
+    margin-right: 10px;
+}
+
+.bottom-right {
+    background-image: url('../img/5.png');
+}
+
+
+
+
+
+
+
+
+
