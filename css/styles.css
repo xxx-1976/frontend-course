@@ -11,7 +11,27 @@ body {
     display: flex;
 }
 
+.column {
+    flex-direction: column;
+    align-items: flex-start!important;
+    margin-top: 100px;
+}
+
+.general__items {
+    display: flex;
+    align-items: center;
+}
+
+.general__item {
+    margin-right: 10px;
+}
+
+.general__item:last-child {
+    margin-right: 0;
+}
+
 .head {
+    display: flex;
     justify-content: space-between;
 }
 
