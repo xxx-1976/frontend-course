@@ -10,17 +10,20 @@ body {
 .box {
     display: flex;
     flex-direction: column;
+}
+
+.box--container {
     width: 1200px;
     margin: 0 auto;
 }
 
-.box-header {
+.box__header {
     display: flex;
     flex-direction: column;
 
 }
 
-.box-header__heading {
+.box__header-heading {
     text-align: center;
     margin: 30px 0 42px;
     font-family: Roboto;
@@ -31,13 +34,13 @@ body {
     color: #2f2f51;
 }
 
-.box-header__navigation {
+.box__navigation {
     display: flex;
     justify-content: center;
     margin-bottom: 37px;
 }
 
-.box-header__navigation-option {
+.box__navigation-option {
     margin-right: 20px;
     width: 131px;
     height: 39px;
@@ -51,22 +54,22 @@ body {
     color: #2f2f51;
 }
 
-.box-header__navigation-option_hover:hover {
+.box__navigation-option_hover:hover {
     background: #ef7f04;
     border-radius: 3px;
     color: white;
 }
 
-.img-specific {
+.box__specific {
     display: flex;
     background: white;
 }
 
-.img-specific-img {
+.box__image {
     width: 50%;
 }
 
-.img-specific-specific {
+.box__specific-description {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -75,7 +78,7 @@ body {
     width: 50%;
 }
 
-.img-specific-specific__header {
+.box__specific-header {
     font-family: Roboto;
     font-style: normal;
     font-weight: 700;
@@ -84,7 +87,7 @@ body {
     color: #ef7f04;
 }
 
-.img-specific-specific__text {
+.box__specific-text {
     width: 390px;
     font-family: Roboto;
     font-style: normal;
@@ -94,7 +97,7 @@ body {
     color: black;
 }
 
-.img-specific-specific__spec {
+.box__specific-params {
     width: 500px;
     font-family: Roboto;
     font-style: normal;
